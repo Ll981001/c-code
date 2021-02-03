@@ -21,7 +21,7 @@ int main4()
 		a = c;
 		c = temp;
 	}
-	if (b < c)
+	if (b < c)//if  else 控制多条语句 必须要加大括号
 	{
 		temp = b;
 		b = c;
