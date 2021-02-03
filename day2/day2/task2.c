@@ -1,12 +1,19 @@
 #define _CRT_SECURE_NO_WARNINGS
 #include<stdio.h>
-//²»ÓÃÁÙÊ±±äÁ¿½»»»Á½¸öÊıµÄÖµ ÀûÓÃÏà¼ÓÔÙÏà¼õ
+//ä¸ç”¨ä¸´æ—¶å˜é‡äº¤æ¢ä¸¤ä¸ªæ•°çš„å€¼ åˆ©ç”¨ç›¸åŠ å†ç›¸å‡ä¼šå¯¼è‡´æº¢å‡º
+//é‡‡ç”¨æŒ‰ä½å¼‚æˆ–
 int main2()
 {
-	int a = 4;
-	int b = 6;
-	a = a + b;
-	b = a - b;
-	a = a - b;
+	int x, y;
+	printf("è¯·è¾“å…¥ä¸¤ä¸ªæ•´æ•°\n");
+	scanf("%d%d", x, y);
+	x = x ^ y;
+	y = x ^ y;
+	x = x ^ y;
+	//int a = 4;
+	//int b = 6;
+	//a = a + b;
+	//b = a - b;
+	//a = a - b;
 	return 0;
 }
