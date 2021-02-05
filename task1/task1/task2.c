@@ -1,5 +1,5 @@
 #define _CRT_SECURE_NO_WARNINGS
-//±¾´úÂëÓÃÓÚÊä³ö³Ë·¨¿Ú¾÷±í
+//æœ¬ä»£ç ç”¨äºè¾“å‡ºä¹˜æ³•å£è¯€è¡¨
 #include<stdio.h>
 int  main2()
 {
@@ -8,7 +8,7 @@ int  main2()
 	{
 		for (j = 1; j < i + 1; j++)
 		{
-			printf("%dx%d=%d ", i, j, i*j);
+			printf("%dx%d=%-2d ", i, j, i*j);//%-2dä¸¤ä½æ•°å·¦å¯¹é½
 		}
 		printf("\n");
 	}
