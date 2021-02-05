@@ -1,0 +1,3 @@
+﻿  test.c
+d:\c primer plus\c-code\day5_4\day5_4\test.c(10): warning C4778: “printf”: 格式字符串“%\n”未终止
+  day5_4.vcxproj -> D:\C Primer Plus\c-code\day5_4\Debug\day5_4.exe
