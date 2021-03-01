@@ -30,7 +30,7 @@ void reverse(int arr[],int n)
 int main()
 {
 	int i = 0;
-	int a[10] = {0};
+	int a[10] ;
 	printf("初始化数组为1,2,3,4,5,6,7,8,9,10\n");
 	init(a,10);//初始化数组为1,2,3,4,5,6,7,8,9,10
 	for (i = 0;i <= 9; i++)
